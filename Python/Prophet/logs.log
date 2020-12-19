@@ -1,0 +1,55 @@
+2020-12-18 23:31:26,551; WARNING; nprophet; _train; To plot live loss, please install neuralprophet[live].Using pip: 'pip install neuralprophet[live]'Or install the missing package manually: 'pip install livelossplot'
+Traceback (most recent call last):
+  File "/home/mgracian/anaconda3/envs/prophet/lib/python3.7/site-packages/neuralprophet/forecaster.py", line 585, in _train
+    from livelossplot import PlotLosses
+ModuleNotFoundError: No module named 'livelossplot'
+2020-12-18 23:31:26,562; INFO; nprophet.utils; set_auto_seasonalities; Disabling daily seasonality. Run NeuralProphet with daily_seasonality=True to override this.
+2020-12-18 23:31:26,563; INFO; nprophet.config; set_auto_batch_epoch; Auto-set batch_size to 32
+2020-12-18 23:31:26,748; INFO; nprophet; _lr_range_test; learning rate range test found optimal lr: 2.85E-01
+2020-12-18 23:59:17,667; INFO; nprophet.config; __post_init__; Note: Trend changepoint regularization is experimental.
+2020-12-18 23:59:17,671; WARNING; nprophet; _train; To plot live loss, please install neuralprophet[live].Using pip: 'pip install neuralprophet[live]'Or install the missing package manually: 'pip install livelossplot'
+Traceback (most recent call last):
+  File "/home/mgracian/anaconda3/envs/prophet/lib/python3.7/site-packages/neuralprophet/forecaster.py", line 585, in _train
+    from livelossplot import PlotLosses
+ModuleNotFoundError: No module named 'livelossplot'
+2020-12-18 23:59:17,681; INFO; nprophet.config; set_auto_batch_epoch; Auto-set batch_size to 32
+2020-12-18 23:59:17,795; INFO; nprophet; _lr_range_test; learning rate range test found optimal lr: 4.33E-02
+2020-12-19 00:00:19,794; INFO; nprophet.config; __post_init__; Note: Trend changepoint regularization is experimental.
+2020-12-19 00:00:19,798; WARNING; nprophet; _train; To plot live loss, please install neuralprophet[live].Using pip: 'pip install neuralprophet[live]'Or install the missing package manually: 'pip install livelossplot'
+Traceback (most recent call last):
+  File "/home/mgracian/anaconda3/envs/prophet/lib/python3.7/site-packages/neuralprophet/forecaster.py", line 585, in _train
+    from livelossplot import PlotLosses
+ModuleNotFoundError: No module named 'livelossplot'
+2020-12-19 00:00:19,807; INFO; nprophet.config; set_auto_batch_epoch; Auto-set batch_size to 32
+2020-12-19 00:00:19,933; INFO; nprophet; _lr_range_test; learning rate range test found optimal lr: 5.34E-02
+2020-12-19 00:01:27,948; INFO; nprophet.config; __post_init__; Note: Trend changepoint regularization is experimental.
+2020-12-19 00:01:27,958; INFO; nprophet.config; set_auto_batch_epoch; Auto-set batch_size to 32
+2020-12-19 00:01:28,063; INFO; nprophet; _lr_range_test; learning rate range test found optimal lr: 2.31E-02
+2020-12-19 00:02:10,640; INFO; nprophet.config; __post_init__; Note: Trend changepoint regularization is experimental.
+2020-12-19 00:02:10,648; INFO; nprophet.config; set_auto_batch_epoch; Auto-set batch_size to 32
+2020-12-19 00:02:10,789; INFO; nprophet; _lr_range_test; learning rate range test found optimal lr: 1.23E+00
+2020-12-19 00:02:26,360; INFO; nprophet.config; __post_init__; Note: Trend changepoint regularization is experimental.
+2020-12-19 00:02:26,371; INFO; nprophet.config; set_auto_batch_epoch; Auto-set batch_size to 32
+2020-12-19 00:02:26,514; INFO; nprophet; _lr_range_test; learning rate range test found optimal lr: 2.31E-01
+2020-12-19 00:02:34,680; INFO; nprophet.config; __post_init__; Note: Trend changepoint regularization is experimental.
+2020-12-19 00:02:34,689; INFO; nprophet.config; set_auto_batch_epoch; Auto-set batch_size to 32
+2020-12-19 00:02:34,836; INFO; nprophet; _lr_range_test; learning rate range test found optimal lr: 4.33E-01
+2020-12-19 00:03:50,376; INFO; nprophet; _handle_missing_data; 1136 missing dates were added.
+2020-12-19 00:03:50,383; INFO; nprophet; _handle_missing_data; 1136 NaN values in column y were auto-imputed.
+2020-12-19 00:03:55,016; INFO; nprophet; _handle_missing_data; 1136 missing dates were added.
+2020-12-19 00:03:55,026; INFO; nprophet; _handle_missing_data; 1136 NaN values in column y were auto-imputed.
+2020-12-19 00:03:55,028; WARNING; nprophet; make_future_dataframe; Number of forecast steps is defined by n_forecasts. Adjusted to 60.
+2020-12-19 00:04:39,509; INFO; nprophet; _handle_missing_data; 25 missing dates were added.
+2020-12-19 00:04:39,515; INFO; nprophet; _handle_missing_data; 25 NaN values in column y were auto-imputed.
+2020-12-19 00:04:39,517; WARNING; nprophet; make_future_dataframe; Number of forecast steps is defined by n_forecasts. Adjusted to 60.
+2020-12-19 00:04:56,669; INFO; nprophet; _handle_missing_data; 25 missing dates were added.
+2020-12-19 00:04:56,675; INFO; nprophet; _handle_missing_data; 25 NaN values in column y were auto-imputed.
+2020-12-19 00:04:56,677; WARNING; nprophet; make_future_dataframe; Number of forecast steps is defined by n_forecasts. Adjusted to 60.
+2020-12-19 00:05:05,143; INFO; nprophet; _handle_missing_data; 1136 missing dates were added.
+2020-12-19 00:05:05,151; INFO; nprophet; _handle_missing_data; 1136 NaN values in column y were auto-imputed.
+2020-12-19 00:05:05,153; WARNING; nprophet; make_future_dataframe; Number of forecast steps is defined by n_forecasts. Adjusted to 60.
+2020-12-19 00:05:22,957; INFO; nprophet; _handle_missing_data; 3934 missing dates were added.
+2020-12-19 00:05:22,969; INFO; nprophet; _handle_missing_data; 3934 NaN values in column y were auto-imputed.
+2020-12-19 00:05:31,413; INFO; nprophet; _handle_missing_data; 3934 missing dates were added.
+2020-12-19 00:05:31,431; INFO; nprophet; _handle_missing_data; 3934 NaN values in column y were auto-imputed.
+2020-12-19 00:05:31,434; WARNING; nprophet; make_future_dataframe; Number of forecast steps is defined by n_forecasts. Adjusted to 60.
